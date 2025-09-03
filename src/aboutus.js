@@ -51,7 +51,7 @@ const AboutUs = () => {
       <section className={`about-hero ${!isTopBarVisible ? 'navbar-collapsed' : ''}`}>
         <div className="container">
           <div className="hero-content">
-            <h1 className="hero-title">About City College of Bayawan</h1>
+            <h1 className="hero-title">About Us</h1>
             <p className="hero-subtitle">Honor and Excellence for the Highest Good</p>
             <p className="hero-motto">Honus et Excellentia Ad Summum Bonum</p>
           </div>
