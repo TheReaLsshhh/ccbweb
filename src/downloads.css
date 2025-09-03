@@ -85,40 +85,7 @@
   animation: heroMottoSlideIn 1s ease-out 0.9s forwards;
 }
 
-/* Mobile responsive adjustments for downloads hero section */
-@media (max-width: 768px) {
-  .downloads-hero {
-    padding-top: 104px; /* Account for mobile orange bar (56px) + green navbar (48px) */
-    min-height: 40vh;
-    margin-top: 80px; /* Reduce top margin for mobile */
-  }
-}
 
-@media (max-width: 480px) {
-  .downloads-hero {
-    padding-top: 100px; /* Account for smaller mobile orange bar (52px) + green navbar (48px) */
-    min-height: 35vh;
-    margin-top: 60px; /* Further reduce top margin for small mobile */
-  }
-}
-
-/* Adjust padding when top bar is hidden */
-.downloads-hero.navbar-collapsed {
-  padding-top: 60px; /* Reduced padding when only green navbar is visible */
-}
-
-/* Mobile responsive adjustments when navbar collapsed */
-@media (max-width: 768px) {
-  .downloads-hero.navbar-collapsed {
-    padding-top: 60px; /* Same as desktop when collapsed */
-  }
-}
-
-@media (max-width: 480px) {
-  .downloads-hero.navbar-collapsed {
-    padding-top: 60px; /* Same as desktop when collapsed */
-  }
-}
 
 .downloads-section {
   padding-top: 1px;
