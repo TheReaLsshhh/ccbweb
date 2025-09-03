@@ -27,6 +27,86 @@
   z-index: 1;
 }
 
+.downloads-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(19, 34, 19, 0.6);
+  z-index: 1;
+}
+
+.downloads-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.downloads-hero .hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.downloads-hero .hero-subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.downloads-hero .hero-motto {
+  font-size: 1.1rem;
+  font-style: italic;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: white;
+}
+
+/* Mobile responsive adjustments for downloads hero section */
+@media (max-width: 768px) {
+  .downloads-hero {
+    padding-top: 104px; /* Account for mobile orange bar (56px) + green navbar (48px) */
+    min-height: 40vh;
+    margin-top: 80px; /* Reduce top margin for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .downloads-hero {
+    padding-top: 100px; /* Account for smaller mobile orange bar (52px) + green navbar (48px) */
+    min-height: 35vh;
+    margin-top: 60px; /* Further reduce top margin for small mobile */
+  }
+}
+
+/* Adjust padding when top bar is hidden */
+.downloads-hero.navbar-collapsed {
+  padding-top: 60px; /* Reduced padding when only green navbar is visible */
+}
+
+/* Mobile responsive adjustments when navbar collapsed */
+@media (max-width: 768px) {
+  .downloads-hero.navbar-collapsed {
+    padding-top: 60px; /* Same as desktop when collapsed */
+  }
+}
+
+@media (max-width: 480px) {
+  .downloads-hero.navbar-collapsed {
+    padding-top: 60px; /* Same as desktop when collapsed */
+  }
+}
+
 .downloads-hero .container {
   position: relative;
   z-index: 2;
