@@ -36,7 +36,7 @@ const AcademicPrograms = () => {
       <Navbar isTopBarVisible={isTopBarVisible} />
       
       {/* Academic Programs Hero Section */}
-      <section className={`admissions-hero ${!isTopBarVisible ? 'navbar-collapsed' : ''}`}>
+      <section className={`academics-hero ${!isTopBarVisible ? 'navbar-collapsed' : ''}`}>
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">Academic Programs</h1>

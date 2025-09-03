@@ -39,7 +39,7 @@ const Downloads = () => {
       <Navbar isTopBarVisible={isTopBarVisible} />
       
       {/* Downloads Hero Section */}
-      <section className={`admissions-hero ${!isTopBarVisible ? 'navbar-collapsed' : ''}`}>
+      <section className={`downloads-hero ${!isTopBarVisible ? 'navbar-collapsed' : ''}`}>
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">Downloads</h1>

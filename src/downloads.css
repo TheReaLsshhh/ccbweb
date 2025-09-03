@@ -2,16 +2,63 @@
 
 /* Downloads Hero Section */
 .downloads-hero {
-  margin-top: 110px;
-  min-height: 50vh;
+  background-image: url('../public/images/ccb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 120px 0 80px;
+  text-align: center;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding-top: 88px; /* Account for both navbars when visible (40px + 48px) */
-  background: linear-gradient(135deg, #2d5a2d 0%, #4a7c59 100%);
-  color: white;
+  height: 445px !important;
+}
+
+.downloads-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(19, 34, 19, 0.6);
+  z-index: 1;
+}
+
+.downloads-hero .container {
   position: relative;
+  z-index: 2;
+}
+
+.downloads-hero .hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.downloads-hero .hero-subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.downloads-hero .hero-motto {
+  font-size: 1.1rem;
+  font-style: italic;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: white;
 }
 
 /* Mobile responsive adjustments for downloads hero section */
@@ -49,16 +96,7 @@
   }
 }
 
-.downloads-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(45, 90, 45, 0.9) 0%, rgba(74, 124, 89, 0.8) 100%);
-  z-index: 1;
-}
+
 
 .downloads-hero .container {
   position: relative;
@@ -81,7 +119,7 @@
 
 .downloads-hero .hero-subtitle {
   font-size: 1.3rem;
-  color: #ff8c00;
+  color: white;
   font-weight: 600;
   margin-bottom: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);

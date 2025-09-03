@@ -13,8 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 500px;
-  margin-top: 88px;
+  height: 445px !important;
 }
 
 .academics-hero::before {
@@ -33,16 +32,7 @@
   z-index: 2;
 }
 
-.academics-hero.navbar-collapsed {
-  margin-top: 48px;
-}
-
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-title {
+.academics-hero .hero-title {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -50,22 +40,25 @@
   color: white;
 }
 
-.hero-subtitle {
-  font-size: 1.5rem;
-  color: #ff8c00;
-  font-weight: 600;
+.academics-hero .hero-subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
   margin-bottom: 0.5rem;
-  font-style: italic;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  color: white;
 }
 
-.hero-motto {
-  font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 2rem;
+.academics-hero .hero-motto {
+  font-size: 1.1rem;
   font-style: italic;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
   line-height: 1.6;
+  color: white;
 }
 
 /* Academic Sections */
