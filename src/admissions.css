@@ -32,33 +32,46 @@
   z-index: 2;
 }
 
+.admissions-hero .hero-content {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: heroContentFadeIn 0.3s ease-out 0.3s forwards;
+}
+
 .admissions-hero .hero-title {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroTitleSlideIn 1s ease-out 0.3s forwards;
 }
 
 .admissions-hero .hero-subtitle {
   font-size: 1.25rem;
-  opacity: 0.9;
+  opacity: 0;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
   margin-bottom: 0.5rem;
   font-weight: 600;
   color: white;
+  transform: translateY(20px);
+  animation: heroSubtitleSlideIn 1s ease-out 0.7s forwards;
 }
 
 .admissions-hero .hero-motto {
   font-size: 1.1rem;
   font-style: italic;
-  opacity: 0.9;
+  opacity: 0;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
   color: white;
+  transform: translateY(20px);
+  animation: heroMottoSlideIn 1s ease-out 0.9s forwards;
 }
 
 .admissions-section {
@@ -506,5 +519,50 @@
   
   .container {
     padding: 0 15px;
+  }
+}
+
+/* Hero Content Animation Keyframes */
+@keyframes heroContentFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroTitleSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroSubtitleSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroMottoSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 } 
