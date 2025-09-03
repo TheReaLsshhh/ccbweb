@@ -86,257 +86,317 @@ const Admissions = () => {
       </section>
 
       {/* Admissions Section */}
-      <section className="section admissions-section">
+      <section className="admissions-section">
         <div className="container">
-          
           <div className="admissions-content">
             {/* Requirements Section */}
-            <div className="requirements-section">
+            <div className="announcements-section">
               <h2>Admission Requirements</h2>
-              <div className="requirements-grid">
-                <div className="requirement-item">
-                  <div className="requirement-icon">
+              <div className="announcements-grid">
+                <div className="announcement-item">
+                  <div className="announcement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                   </div>
-                  <div className="requirement-text">
+                  <div className="announcement-content">
                     <h4>High School Diploma</h4>
+                    <div className="announcement-date">Required Document</div>
                     <p>Original copy of high school diploma or certificate of completion</p>
+                    <a href="#" className="read-more">Learn More</a>
                   </div>
                 </div>
 
-                <div className="requirement-item">
-                  <div className="requirement-icon">
+                <div className="announcement-item">
+                  <div className="announcement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zM16 18H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
                     </svg>
                   </div>
-                  <div className="requirement-text">
+                  <div className="announcement-content">
                     <h4>Academic Records</h4>
+                    <div className="announcement-date">Required Document</div>
                     <p>Official transcript of records from previous school</p>
+                    <a href="#" className="read-more">Learn More</a>
                   </div>
                 </div>
 
-                <div className="requirement-item">
-                  <div className="requirement-icon">
+                <div className="announcement-item">
+                  <div className="announcement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                     </svg>
                   </div>
-                  <div className="requirement-text">
+                  <div className="announcement-content">
                     <h4>Personal Information</h4>
+                    <div className="announcement-date">Required Document</div>
                     <p>Birth certificate, valid ID, and recent 2x2 photos</p>
+                    <a href="#" className="read-more">Learn More</a>
                   </div>
                 </div>
 
-                <div className="requirement-item">
-                  <div className="requirement-icon">
+                <div className="announcement-item">
+                  <div className="announcement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
                   </div>
-                  <div className="requirement-text">
+                  <div className="announcement-content">
                     <h4>Medical Certificate</h4>
+                    <div className="announcement-date">Required Document</div>
                     <p>Health certificate from a licensed physician</p>
+                    <a href="#" className="read-more">Learn More</a>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Application Process Section */}
-            <div className="process-section">
+            <div className="events-section">
               <h2>Application Process</h2>
-              <div className="process-steps">
-                <div className="step-item">
-                  <div className="step-number">1</div>
-                  <div className="step-content">
+              <div className="events-grid">
+                <div className="event-item">
+                  <div className="event-image">
+                    <div className="event-date">
+                      <span className="day">1</span>
+                      <span className="month">Step</span>
+                    </div>
+                  </div>
+                  <div className="event-content">
                     <h4>Submit Requirements</h4>
+                    <div className="event-time">First Step</div>
                     <p>Complete the application form and submit all required documents to the Admissions Office</p>
+                    <a href="#" className="event-link">View Details</a>
                   </div>
                 </div>
 
-                <div className="step-item">
-                  <div className="step-number">2</div>
-                  <div className="step-content">
+                <div className="event-item">
+                  <div className="event-image">
+                    <div className="event-date">
+                      <span className="day">2</span>
+                      <span className="month">Step</span>
+                    </div>
+                  </div>
+                  <div className="event-content">
                     <h4>Document Review</h4>
+                    <div className="event-time">Second Step</div>
                     <p>Our admissions team will review your application and verify all submitted documents</p>
+                    <a href="#" className="event-link">View Details</a>
                   </div>
                 </div>
 
-                <div className="step-item">
-                  <div className="step-number">3</div>
-                  <div className="step-content">
+                <div className="event-item">
+                  <div className="event-image">
+                    <div className="event-date">
+                      <span className="day">3</span>
+                      <span className="month">Step</span>
+                    </div>
+                  </div>
+                  <div className="event-content">
                     <h4>Interview</h4>
+                    <div className="event-time">Third Step</div>
                     <p>Schedule and attend a personal interview with our academic advisors</p>
+                    <a href="#" className="event-link">View Details</a>
                   </div>
                 </div>
 
-                <div className="step-item">
-                  <div className="step-number">4</div>
-                  <div className="step-content">
+                <div className="event-item">
+                  <div className="event-image">
+                    <div className="event-date">
+                      <span className="day">4</span>
+                      <span className="month">Step</span>
+                    </div>
+                  </div>
+                  <div className="event-content">
                     <h4>Acceptance</h4>
+                    <div className="event-time">Final Step</div>
                     <p>Receive your acceptance letter and enrollment instructions</p>
+                    <a href="#" className="event-link">View Details</a>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Important Dates Section */}
-            <div className="dates-section">
+            <div className="achievements-section">
               <h2>Important Dates</h2>
-              <div className="dates-grid">
-                <div className="date-item">
-                  <div className="date-icon">
+              <div className="achievements-grid">
+                <div className="achievement-item">
+                  <div className="achievement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                     </svg>
                   </div>
-                  <div className="date-text">
+                  <div className="achievement-content">
                     <h4>Application Period</h4>
-                    <p>January 15 - March 31, 2025</p>
+                    <div className="achievement-date">January 15 - March 31, 2025</div>
+                    <p>Submit your application during this period for the upcoming academic year</p>
+                    <a href="#" className="read-more">View Details</a>
                   </div>
                 </div>
 
-                <div className="date-item">
-                  <div className="date-icon">
+                <div className="achievement-item">
+                  <div className="achievement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                     </svg>
                   </div>
-                  <div className="date-text">
+                  <div className="achievement-content">
                     <h4>Document Submission</h4>
-                    <p>February 1 - April 15, 2025</p>
+                    <div className="achievement-date">February 1 - April 15, 2025</div>
+                    <p>Complete document submission deadline for all applicants</p>
+                    <a href="#" className="read-more">View Details</a>
                   </div>
                 </div>
 
-                <div className="date-item">
-                  <div className="date-icon">
+                <div className="achievement-item">
+                  <div className="achievement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                     </svg>
                   </div>
-                  <div className="date-text">
+                  <div className="achievement-content">
                     <h4>Interviews</h4>
-                    <p>March 1 - April 30, 2025</p>
+                    <div className="achievement-date">March 1 - April 30, 2025</div>
+                    <p>Scheduled interview period for qualified applicants</p>
+                    <a href="#" className="read-more">View Details</a>
                   </div>
                 </div>
 
-                <div className="date-item">
-                  <div className="date-icon">
+                <div className="achievement-item">
+                  <div className="achievement-icon">
                     <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                       <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                     </svg>
                   </div>
-                  <div className="date-text">
+                  <div className="achievement-content">
                     <h4>Enrollment</h4>
-                    <p>May 1 - June 30, 2025</p>
+                    <div className="achievement-date">May 1 - June 30, 2025</div>
+                    <p>Enrollment period for accepted students</p>
+                    <a href="#" className="read-more">View Details</a>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Application Form Section */}
-            <div className="application-form-section">
+            <div className="announcements-section">
               <h2>Request Information</h2>
-              <form className="application-form" onSubmit={handleSubmit}>
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="firstName">First Name *</label>
-                    <input
-                      type="text"
-                      id="firstName"
-                      name="firstName"
-                      value={formData.firstName}
-                      onChange={handleInputChange}
-                      required
-                      placeholder="Enter your first name"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="lastName">Last Name *</label>
-                    <input
-                      type="text"
-                      id="lastName"
-                      name="lastName"
-                      value={formData.lastName}
-                      onChange={handleInputChange}
-                      required
-                      placeholder="Enter your last name"
-                    />
-                  </div>
+              <div className="announcement-item">
+                <div className="announcement-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z"/>
+                    <path d="M14 2v6h6"/>
+                    <path d="M16 13H8"/>
+                    <path d="M16 17H8"/>
+                    <path d="M10 9H8"/>
+                  </svg>
                 </div>
+                <div className="announcement-content">
+                  <h4>Application Form</h4>
+                  <div className="announcement-date">Get Started</div>
+                  <p>Fill out the form below to request more information about our programs and admission process</p>
+                  
+                  <form className="application-form" onSubmit={handleSubmit}>
+                    <div className="form-row">
+                      <div className="form-group">
+                        <label htmlFor="firstName">First Name *</label>
+                        <input
+                          type="text"
+                          id="firstName"
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="Enter your first name"
+                        />
+                      </div>
+                      <div className="form-group">
+                        <label htmlFor="lastName">Last Name *</label>
+                        <input
+                          type="text"
+                          id="lastName"
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="Enter your last name"
+                        />
+                      </div>
+                    </div>
 
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="email">Email Address *</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                      placeholder="Enter your email address"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="phone">Phone Number</label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      placeholder="Enter your phone number"
-                    />
-                  </div>
+                    <div className="form-row">
+                      <div className="form-group">
+                        <label htmlFor="email">Email Address *</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleInputChange}
+                          required
+                          placeholder="Enter your email address"
+                        />
+                      </div>
+                      <div className="form-group">
+                        <label htmlFor="phone">Phone Number</label>
+                        <input
+                          type="tel"
+                          id="phone"
+                          name="phone"
+                          value={formData.phone}
+                          onChange={handleInputChange}
+                          placeholder="Enter your phone number"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="form-group">
+                      <label htmlFor="program">Program of Interest</label>
+                      <select
+                        id="program"
+                        name="program"
+                        value={formData.program}
+                        onChange={handleInputChange}
+                      >
+                        <option value="">Select a program</option>
+                        <option value="bsit">BS Information Technology</option>
+                        <option value="bsba">BS Business Administration</option>
+                        <option value="bse">BS Elementary Education</option>
+                        <option value="bss">BS Secondary Education</option>
+                        <option value="bsa">BS Accountancy</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+
+                    <div className="form-group">
+                      <label htmlFor="message">Additional Questions</label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleInputChange}
+                        rows="4"
+                        placeholder="Any specific questions about admissions or programs?"
+                      ></textarea>
+                    </div>
+
+                    <button 
+                      type="submit" 
+                      className="submit-btn"
+                      disabled={isSubmitting}
+                    >
+                      {isSubmitting ? 'Sending...' : 'Request Information'}
+                    </button>
+
+                    {submitStatus === 'success' && (
+                      <div className="success-message">
+                        Thank you! Your information request has been submitted successfully.
+                      </div>
+                    )}
+                  </form>
                 </div>
-
-                <div className="form-group">
-                  <label htmlFor="program">Program of Interest</label>
-                  <select
-                    id="program"
-                    name="program"
-                    value={formData.program}
-                    onChange={handleInputChange}
-                  >
-                    <option value="">Select a program</option>
-                    <option value="bsit">BS Information Technology</option>
-                    <option value="bsba">BS Business Administration</option>
-                    <option value="bse">BS Elementary Education</option>
-                    <option value="bss">BS Secondary Education</option>
-                    <option value="bsa">BS Accountancy</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="message">Additional Questions</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    rows="4"
-                    placeholder="Any specific questions about admissions or programs?"
-                  ></textarea>
-                </div>
-
-                <button 
-                  type="submit" 
-                  className="submit-btn"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? 'Sending...' : 'Request Information'}
-                </button>
-
-                {submitStatus === 'success' && (
-                  <div className="success-message">
-                    Thank you! Your information request has been submitted successfully.
-                  </div>
-                )}
-              </form>
+              </div>
             </div>
           </div>
         </div>
