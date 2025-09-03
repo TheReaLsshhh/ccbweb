@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import "./footer.css";
 
 const Footer = () => {
@@ -13,16 +13,30 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h4>Contact Information</h4>
-            <p> Bayawan City, Negros Oriental</p>
-            <p> (035) XXX-XXXX</p>
-            <p> info@ccb.edu.ph</p>
+            <p>
+              <span className="icon">📍</span> Bayawan City, Negros Oriental
+            </p>
+            <p>
+              <span className="icon">📞</span> (035) XXX-XXXX
+            </p>
+            <p>
+              <span className="icon">✉️</span> info@ccb.edu.ph
+            </p>
           </div>
           <div className="footer-section">
             <h4>Quick Links</h4>
-            <a href="/">Home</a>
-            <a href="/academics">Academic Programs</a>
-            <a href="/admissions">Admissions</a>
-            <a href="/news">News & Events</a>
+            <a href="/">
+              <span className="icon">🏠</span> Home
+            </a>
+            <a href="/academics">
+              <span className="icon">🎓</span> Academic Programs
+            </a>
+            <a href="/admissions">
+              <span className="icon">📝</span> Admissions
+            </a>
+            <a href="/news">
+              <span className="icon">📰</span> News & Events
+            </a>
           </div>
         </div>
         <div className="footer-bottom">
@@ -33,4 +47,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer; 
